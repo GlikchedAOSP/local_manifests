@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--remotes -->
+    <remote name="glikched"   fetch="https://github.com/GlikchedTrees" />
+
+    <!--Device Tree - you can track from LineageOS if you want-->
+    <project name="android_device_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_beyond1lte"        path="device/samsung/beyond1lte"        remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_beyond2lte"        path="device/samsung/beyond2lte"        remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_beyondx"           path="device/samsung/beyondx"           remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_d1"                path="device/samsung/d1"                remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_d2s"               path="device/samsung/d2s"               remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_d2x"               path="device/samsung/d2x"               remote="glkched"  revision="derp-13" />
+	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="glkched"  revision="derp-13" />
+	
+	<!--Vendor Tree - You can track from TheMuppets if you want-->
+    <project name="proprietary_vendor_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_beyond1lte"        path="device/samsung/beyond1lte"        remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_beyond2lte"        path="device/samsung/beyond2lte"        remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_beyondx"           path="device/samsung/beyondx"           remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_d1"                path="device/samsung/d1"                remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_d2s"               path="device/samsung/d2s"               remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_d2x"               path="device/samsung/d2x"               remote="glkched"  revision="thirteen" />
+	<project name="proprietary_vendor_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="glkched"  revision="thirteen" />
+
+    <!--Kernel Tree - You can track from The LineageOS if you want-->
+    <project name="android_kernel_samsung_exynos9820"        path="kernel/samsung/exynos9820"        remote="glkched"  revision="android-13" clone-depth="1" />
+    
+    <!-- Dependenciens -->
+    <project name="android_device_samsung_slsi_sepolicy"    path="device/samsung_slsi/sepolicy"      remote="glikched"   revision="android-13" />
+    <project name="android_hardware_samsung"                path="hardware/samsung"                  remote="glikched"   revision="derp-13" />
+	
+</manifest>
