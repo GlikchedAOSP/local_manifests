@@ -3,6 +3,7 @@
 
     <!--remotes -->
     <remote name="glikched"   fetch="https://github.com/GlikchedTrees" />
+    <remote name="LineageOS"   fetch="https://github.com/LineageOS" />
 
     <!--Device Tree - you can track from LineageOS if you want-->
     <project name="android_device_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="glikched"  revision="derp-13" />
@@ -15,7 +16,7 @@
 	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="glikched"  revision="derp-13" />
 	
 	<!--Vendor Tree - You can track from TheMuppets if you want-->
-        <project name="proprietary_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="glikched"  revision="thirteen" />
+    <project name="proprietary_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="glikched"  revision="thirteen" />
 	<project name="proprietary_vendor_samsung_beyond1lte"        path="vendor/samsung/beyond1lte"        remote="glikched"  revision="thirteen" />
 	<project name="proprietary_vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="glikched"  revision="thirteen" />
 	<project name="proprietary_vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="glikched"  revision="thirteen" />
@@ -30,5 +31,10 @@
     <!-- Dependenciens -->
     <project name="android_device_samsung_slsi_sepolicy"    path="device/samsung_slsi/sepolicy"      remote="glikched"   revision="android-13" />
     <project name="android_hardware_samsung"                path="hardware/samsung"                  remote="glikched"   revision="derp-13" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax"   path="hardware/samsung_slsi-linaro/openmax"  remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos"    path="hardware/samsung_slsi-linaro/exynos"   remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5"   path="hardware/samsung_slsi-linaro/exynos5"  remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_config"    path="hardware/samsung_slsi-linaro/config"   remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics"  path="hardware/samsung_slsi-linaro/graphics" remote="LineageOS"   revision="lineage-20" />
 	
 </manifest>
